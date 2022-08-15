@@ -1,0 +1,450 @@
+/* body{
+  min-height: 100vh;
+} */
+img.logo-nav {
+  height: 100%;
+}
+
+h2.im {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  /* margin-top: 150px; */
+  align-items: center;
+  text-align: center;
+
+}
+
+.left {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+
+.text_content {
+  align-items: center;
+  justify-content: center;
+}
+
+h1.hi {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  margin-right: 50px;
+  /* margin-top: 20px; */
+}
+
+.abc {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+/* span::before {
+    content: "Coding";
+    animation: animate infinite 5s;
+    padding-left: 10px;
+}
+@keyframes animate {
+  
+    0% {
+        content: "Coding";
+    }
+
+    65% {
+        content: "Designing";
+    }
+} */
+
+.random-word {
+  display: inline-block;
+  color: #212529;
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  width: auto;
+  /*   transition: all 1.25s; */
+  animation: slidedown 4s infinite;
+  -webkit-animation: slidedown 4s infinite;
+  -moz-animation: slidedown 4s infinite;
+}
+
+@keyframes slidedown {
+  0% {
+    opacity: 50;
+  }
+
+  5% {
+    opacity: 0;
+    transform: translateY(0.5em);
+  }
+
+  7% {
+    transform: translateY(-1em);
+  }
+
+  10% {
+    opacity: 0;
+  }
+
+  20% {
+    transform: translateY(0);
+    opacity: 100;
+  }
+}
+
+h1.designing {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  margin-right: 50px;
+  color: #212529;
+}
+
+h1.writing {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  margin-left: 50px;
+  color: #212529;
+}
+
+
+
+.abc {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  margin-left: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+h2.about {
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  margin-top: 15px;
+  color: #212529;
+}
+
+h5.meeting {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  margin-top: 20px;
+  color: #989898;
+  font-weight: 400;
+}
+
+.img-fluid {
+  animation: transitionIn 3s;
+}
+
+@keyframes transitionIn {
+  from {
+    opacity: 0;
+    transform: rotateX(60deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: rotateX(0);
+  }
+}
+
+.about {
+  animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.meeting {
+  animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* h1#hi {
+  cursor: url(/image/hand.svg), auto;
+} */
+
+.video {
+  height: 500px;
+}
+
+img.logo {
+  height: 100px;
+}
+
+h2.mail {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  margin-top: 15px;
+  color: #212529;
+}
+
+h2.social {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  margin-top: 20px;
+  color: #989898;
+  font-weight: 400;
+
+}
+
+h5.email {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  margin-top: 20px;
+  color: #989898;
+  font-weight: 400;
+}
+
+h2.social-icon {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  margin-top: 15px;
+  color: #212529;
+}
+
+
+.page-1 {
+  margin-top: 100px;
+}
+
+.container {
+  margin-top: 40px;
+}
+
+h1.Resume {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+.Designing {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  margin-left: 50px;
+  margin-top: 20px;
+  /* justify-content: space-around;  */
+}
+
+/* .sticky-footer{
+  position: sticky;
+  top: 100%;
+  display: flex;
+  margin-bottom: 30px;
+
+} */
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+
+a:active {
+  color: black;
+  text-decoration: none;
+}
+
+i.fa-solid.fa-xmark {
+  font-size: 23px;
+  margin-right: 50px;
+}
+
+
+img.work {
+  height: 550px;
+
+}
+
+/* h2.instagram:hover{
+  animation: up-bump 1s ease;
+}
+
+
+@keyframes up-bump {
+  0% { padding-top: 2em; }
+  50% { padding-top: 1.5em; }
+  100% { padding-top: 2em; }
+}
+@keyframes down-bump {
+  0% { padding-top: 2em; }
+  50% { padding-top: 2.5em; }
+  100% { padding-top: 2em; }
+} */
+
+
+h5.one {
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+}
+
+h2.hello {
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.text4 {
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+
+span.hello {
+  padding-left: 50px;
+  font-size: 46px;
+  font-family: 'Poppins', sans-serif;
+}
+
+h5.one:hover {
+  background-color: #fafafb;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #f2da87;
+  width: 500px;
+}
+
+h5.one {
+  transition: width 2s;
+  transition-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+
+}
+
+img.designui {
+  margin-top: 75px;
+  height: 150px;
+  transition: .5s ease all;
+}
+
+
+img.designui:hover {
+  transform: scale(0.8);
+  transition: .5s ease all;
+}
+
+
+.div1 {
+  position: fixed;
+
+}
+
+.blogs {
+  text-align: center;
+}
+
+h2.blog {
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+}
+
+p.test2 {
+  writing-mode: vertical-rl;
+  padding: 30px;
+  font-family: 'Aboreto', cursive;
+  font-weight: 500;
+}
+
+button#ASong {
+  background-color: white;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+img.close {
+  height: 30px;
+  margin-right: 50px;
+}
+
+
+.exp {
+  border-left: 5px solid blue;
+}
+
+.design2 {
+  font-size: 30px;
+}
+
+
+
+@media only screen and (max-width: 991px) {
+  .div1 {
+    position: unset;
+  }
+
+  p.test2 {
+    writing-mode: horizontal-tb;
+    padding: unset;
+  }
+
+  .verical {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .video {
+    margin-top: 50px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .design2 {
+    padding-left: 100px;
+  }
+
+}
+
+@media only screen and (max-width: 576px) {
+  .blog {
+    width: 50%;
+  }
+
+  .design2 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .blog {
+    width: 100%;
+    text-align: center;
+
+  }
+}

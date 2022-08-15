@@ -288,8 +288,7 @@ i.fa-solid.fa-xmark {
 
 
 img.work {
-  height: 550px;
-
+  height: 350px;
 }
 
 /* h2.instagram:hover{
@@ -329,7 +328,7 @@ h2.hello {
 
 span.hello {
   padding-left: 50px;
-  font-size: 46px;
+  font-size: 35px;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -425,16 +424,16 @@ img.close {
 }
 
 @media only screen and (max-width: 1200px) {
-  .design2 {
-    padding-left: 100px;
+  img.work {
+    height: 400px;
   }
-
 }
 
 @media only screen and (max-width: 576px) {
   .blog {
     width: 50%;
   }
+
 
   .design2 {
     font-size: 30px;
